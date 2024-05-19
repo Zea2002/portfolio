@@ -1,0 +1,104 @@
+
+/* css variables */ 
+@import url(./partials/_variables.css);
+
+/* import global styling */ 
+@import url(./partials/_global.css);
+
+
+/* start navigation */ 
+.header_area .main-menu .navbar .navbar-brand{
+    padding-left: 100px;
+}
+
+.header_area .main-menu .navbar{
+   display: flex;
+   justify-content: space-around;
+   margin: auto;
+
+}
+
+.header_area .main-menu .nav-item .nav-link{
+    text-transform: uppercase;
+    padding: 15px;
+    color: rgb(248, 242, 242);
+}
+
+.header_area .main-menu .navbar-nav{
+  margin-left: 300px;
+}
+
+.header_area .main-menu .navbar-nav a:hover{
+    background:green;
+   
+}
+
+
+/* end navigation */ 
+
+/* Banner Area */ 
+.site-main .site-banner .site-title h3{
+    font-weight: 500;
+    color: white;
+    margin-left: 30px;
+}
+
+.site-main .site-banner .site-title h3::after{
+    content: " ";
+    background: black;
+    display: inline-block;
+    margin-left: 10px;
+   
+}
+
+.site-main .site-banner .site-title h2{
+    font-size: 40px;
+    color: aqua;
+    margin-left: 30px;
+}
+
+.site-main .site-banner .site-title h5{
+    font-size: 25px;
+    margin-left: 30px;
+    color: aliceblue;
+}
+
+.site-main .site-banner .banner-image > img{
+   height: 400px;
+   width: 350px;
+   margin-left: 110px;
+}
+.fa-brands{
+    color: aquamarine;
+    margin: 15px;
+    height: 10px;
+    font-size: 30px;
+}
+
+
+
+/* End Banner Area */ 
+
+
+/* End About Me */ 
+
+ 
+
+/* Footer Area */ 
+
+footer.footer-area .social h5{
+    font: normal 500 23px/ 30px var(--roboto);
+}
+
+footer.footer-area .social a > i{
+    font-size:22px;
+    padding:4px;
+    color: var(--border-color);
+}
+
+footer.footer-area .social a:hover > i{
+    color: var(--primary-color);
+}
+
+
+/* End Footer */ 
